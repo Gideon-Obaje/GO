@@ -1,0 +1,132 @@
+body{
+    margin: 0;
+    font-family: Tahoma, sans-serif;
+    font-weight: 300;
+    max-width: 100%;
+    background-color: yellow
+}
+
+.navigation{
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-block: 13px;
+    padding-inline: 6.38vw;
+    margin-bottom: 0;
+    gap: 900px;
+    font-family: Tahoma, sans-serif;
+    font-weight: 300;
+    width: 100%;
+    height: 100%;
+}
+
+.nav{
+    display: flex;
+    gap: 30px;
+    font-family: Tahoma, sans-serif;
+    font-weight: 300
+}
+
+
+.nav-link{
+    color: white;
+    text-decoration: none;
+    font-family: Tahoma, sans-serif;
+    font-weight: 300
+}
+
+.hero{
+    background-color: red;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-block: 20px;
+    padding-inline: 6.38vw;
+    gap: 70px;
+    border-radius: 1%;
+    font-family: Tahoma, sans-serif;
+    font-weight: 300;
+    max-width: 100%;
+}
+
+
+.contact-form{
+    padding-inline: 6.38vw;
+    padding-block: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: Tahoma, sans-serif;
+    font-weight: 300
+}
+
+.submit-button{
+    width: 90px;
+    height: 50px;
+    font-size: 100%;
+    font-family: Tahoma, sans-serif;
+    background-color: yellow;
+    border-radius: 10%;
+    font-weight: 300
+}
+
+input{
+    width: 250px;
+}
+
+textarea{
+    border-radius: 1%;
+    width: 250px
+}
+
+.navigational{
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 0;
+    gap: 900px;
+    font-family: Tahoma, sans-serif;
+    font-weight: 300;
+    padding-inline: 3.2vw
+    
+}
+
+@media(max-width: 1200px){
+    body{
+        max-width: 100%;
+        margin-inline: 0
+    }
+    
+    .hero{
+        flex-wrap: wrap;
+        max-width: 100%;
+    }
+
+    .hidden-in-mobile{
+        display: none;
+        flex-wrap: wrap;
+        gap: 3px
+    }
+
+    .navigation{
+        max-width: 100%;
+        gap: 130px
+    }
+
+    section{
+        max-width: 100%;
+    }
+
+    .navigational{
+        max-width: 100%;
+        gap: 200px
+    }
+
+    .contact-heading{
+        font-size: 20px
+    }
+
+    
+}
